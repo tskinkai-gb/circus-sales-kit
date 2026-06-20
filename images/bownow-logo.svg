@@ -1,0 +1,30 @@
+<!-- BowNow Logo SVG (based on official brand identity)
+     Colors: Circle #8B1A14 (crimson), Text #1A1A1A, Sub #666666 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 64" width="220" height="64" role="img" aria-label="BowNow by CloudCIRCUS">
+  <!-- Red circle background -->
+  <circle cx="32" cy="32" r="30" fill="#8B1A14"/>
+
+  <!-- Dog silhouette (sitting dog, facing right) in white -->
+  <!-- Body -->
+  <ellipse cx="32" cy="40" rx="12" ry="10" fill="white"/>
+  <!-- Head -->
+  <circle cx="38" cy="24" r="9" fill="white"/>
+  <!-- Ear left (floppy) -->
+  <ellipse cx="30" cy="21" rx="5" ry="8" fill="white" transform="rotate(-15 30 21)"/>
+  <!-- Ear right (floppy) -->
+  <ellipse cx="45" cy="20" rx="4" ry="7" fill="white" transform="rotate(10 45 20)"/>
+  <!-- Nose -->
+  <ellipse cx="44" cy="27" rx="3" ry="2" fill="#8B1A14"/>
+  <!-- Eye -->
+  <circle cx="39" cy="22" r="2" fill="#8B1A14"/>
+  <!-- Tail -->
+  <path d="M20 35 Q12 28 16 22" stroke="white" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <!-- Front legs -->
+  <rect x="26" y="48" width="5" height="10" rx="2.5" fill="white"/>
+  <rect x="34" y="48" width="5" height="10" rx="2.5" fill="white"/>
+
+  <!-- BowNow text -->
+  <text x="74" y="36" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-weight="900" font-size="26" fill="#1A1A1A" letter-spacing="-0.5">BowNow</text>
+  <!-- by CloudCIRCUS -->
+  <text x="76" y="52" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif" font-weight="400" font-size="12" fill="#666666" letter-spacing="0.5">by CloudCIRCUS</text>
+</svg>
